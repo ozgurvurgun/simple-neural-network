@@ -19,7 +19,7 @@ Bir nöron, bir sinir ağının temel yapı taşıdır. Aşağıdaki işlemleri 
 #### **Katmanlar (Layers)**
 
 1. **Girdi Katmanı (Input Layer):** Veri sinir ağına bu katman aracılığıyla girer. Bu projede her rakam, 10 elemanlı bir dizi ile temsil edilir.
-   - Örneğin: `0` rakamı `[1, 0, 0, 0, 0, 0, 0, 0, 0, 0]` olarak temsil edilir.
+   - Örneğin: `0` rakamı `[1, 0, 0, 0, 0, 0, 0, 0, 0, 0]` olarak(One Hot Encoding) temsil edilir.
 2. **Gizli Katman (Hidden Layer):** Girdi verilerini işleyerek ara çıktıların oluşturulduğu katmandır. Gizli katman sayısı ve nöron sayısı, problemin karmaşıklığına bağlı olarak değişir. Bu projede 16 gizli nöron vardır.
 3. **Çıktı Katmanı (Output Layer):** Nihai tahminlerin yapıldığı katmandır. Bu projede 10 çıktı nöronu vardır (0–9 arasındaki rakamları temsil eder).
 
