@@ -1,0 +1,16 @@
+{
+  "name": "simple-neural-network",
+  "version": "1.0.0",
+  "description": "A simple neural network implementation in JavaScript",
+  "type": "module",
+  "scripts": {
+    "start": "node run/run.js",
+    "train": "node train/train.js",
+    "test": "echo \"No test specified yet\" && exit 1"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.4.1"
+  }
+}
