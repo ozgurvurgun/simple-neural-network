@@ -8,7 +8,7 @@
     "train": "node train/train.js",
     "test": "echo \"No test specified yet\" && exit 1"
   },
-  "author": "Your Name",
+  "author": "Özgür Vurgun",
   "license": "MIT",
   "dependencies": {
     "chalk": "^5.4.1"
